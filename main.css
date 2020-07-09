@@ -16,6 +16,7 @@
 body {
   font-size: 1rem;
   font-family: 'Nanum Pen Script', cursive;
+  overflow-y: hidden;
 }
 .flag {
   position: absolute;
@@ -79,9 +80,9 @@ body {
 }
 .text {
   position: absolute;
-  color: black;
+  color: white;
   text-align: right;
-  font-size: 128px;
-  right: 10px;
-  top: 10px;
+  font-size: 5em;
+  right: 0.25em;
+  top: 0.25em;
 }
